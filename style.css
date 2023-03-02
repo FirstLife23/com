@@ -16,27 +16,9 @@
 }
 .principale {
   animation-name: slideInLeft;
-  animation-duration: 1s;
-  animation-timing-function:ease-in; 
+  animation-duration: 1s; 
   animation-delay: 0s;
   animation-iteration-count: 1;
-  animation-fill-mode: none;
-  animation-direction: normal;
-}
-h1{
-  animation-name: slideInLeft;
-  animation-duration: 1.5s;
-  animation-timing-function:ease-in; 
-  animation-delay: 0s;
-  animation-iteration-count: 1;
-  animation-fill-mode:none ;
-  animation-direction: normal;
-}
-p {
-  animation-name: slideInLeft;
-  animation-duration: 1.5s;
-  animation-timing-function: 1;
-  animation-delay: 0;
   animation-fill-mode: none;
   animation-direction: normal;
 }
@@ -54,6 +36,18 @@ header{
     height: 100vh;
     background-size: cover;  
     background-position: center;
+}
+nav{
+  text-decoration: none;
+  font-size: large;
+  position: fixed;
+  font-weight: bold;
+  margin-top: 7px;
+  margin: 10px;
+  list-style: none;
+}
+nav a{
+  color: white;
 }
 ul{
     position: fixed;
@@ -333,7 +327,28 @@ video{
   margin-left: auto;
   margin-right: auto;
 }
-
+.background{
+  width: 100%;
+  height: 45px;
+  background-color: #02000f;
+  position: fixed;
+  margin-top: 0;
+  padding: 0;
+}
+@media screen and (max-width: 390px) {
+  nav{
+    text-decoration: none;
+    font-size: x-small;
+    position: fixed;
+    font-weight: bolder;
+    margin-top: 7px;
+    margin: 15px;
+    list-style: none;
+  }
+  nav a{
+    color: white;
+  }
+}
 @media screen and (max-width: 715px) {
 video{
   width: 80%;
