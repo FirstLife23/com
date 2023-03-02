@@ -326,7 +326,7 @@ li.sma{
   text-decoration: none;
   color: rgb(112, 112, 112);
 }
-.video{
+video{
   width: 80%;
   min-height: 90%;
   display: block;
@@ -335,7 +335,7 @@ li.sma{
 }
 
 @media screen and (max-width: 715px) {
-.video{
+video{
   width: 80%;
   min-height: 20vh;
   display: flex;
